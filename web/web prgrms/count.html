@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Elements</title>
+<script type="text/javascript">
+function count()
+{
+var cnt;
+cnt=document.form1.elements.length;
+alert("number of elements is:"+cnt)
+}
+</script>
+</head>
+<body bgcolor="plum">
+<form name="form1">
+enter your name<br>
+<input type="text" name="txtname"/></br>
+enter your email<br>
+<input type="text" name="txtmail"/></br>
+enter your contact<br>
+<input type="text" name="txtnum"/></br>
+gender</br>
+<input type="radio"/>male</br>
+<input type="radio"/>female</br>
+hobbies:</br>
+<input type="checkbox">reading</br>
+<input type="checkbox">writing</br>
+<input type="button" value="count"onclick="count()"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Login page></title>
+<script type="text/javascript">
+function checkFields()
+{
+var usn=document.f1.usr.value;
+var pwd=document.f1.pword.value;
+if((usn.length==0)||(pwd.length==0))
+alert("please enter both username and password");
+}
+</script>
+</head>
+<body>
+<form name="f1"action="" method="post"onsubmit=checkFields()>
+<center>USER AUTHENTICATION
+username<input type="text" name="usr" value=""><br/>
+password<input type="text" name="pword" value""><br/>
+<input type="submit" value:""name="s1"/>
+</center>
+</form>
+</body>
+</html>
+
